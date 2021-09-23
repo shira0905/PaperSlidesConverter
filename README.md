@@ -1,5 +1,5 @@
 
-## convert.sh
+## paper2slides.sh
 Combine all `*.tex` included in `main.tex` into single file `main_merged.tex`
 ### help info 
 ```
@@ -9,18 +9,18 @@ arg2: The main content of slides to input slide main.
 
 ### example
 ```
-bash convert.sh \
+bash paper2slides.sh \
     ~/Desktop/journal2/merged_main-Hong.tex \
     ~/Documents/Dropbox/milestones4/20211004/content.tex
 ```
 
  
 
-## convert.py
+## paper2slides.py
 Given a merged tex file, convert the content subfile for beamer.
 ### help info 
 ```
-usage: convert.py [-h] [--input] [--output]
+usage: paper2slides.py [-h] [--input] [--output]
 
 optional arguments:
   -h, --help      show this help message and exit
@@ -30,7 +30,7 @@ optional arguments:
 
 ### example
 ```
-python convert.py \
+python paper2slides.py \
     --input  ~/Desktop/journal2/merged_main-Hong.tex \
     --output ~/Documents/Dropbox/milestones4/20211004/content.tex
 ```
